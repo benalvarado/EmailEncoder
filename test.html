@@ -2,7 +2,14 @@
 <html>
 <head>
 <title>Framework Test</title>
-<script src="emailscript.js" type="text/javascript"></script>
+<script src="emailencoder.min.js" type="text/javascript"></script>
+<script>
+    window.onload = function () {
+        var email_address = "test@example.com";
+        var encoded_email = EmailEncoder.encode(email_address);
+        document.write(encoded_email);
+    }
+</script>
 </head>
 <body>
 </body>

@@ -1,4 +1,6 @@
-function encode_email(email) {
+var EmailEncoder = EmailEncoder || {};
+
+EmailEncoder.encode = function (email) {
     var estr = '<a href=mailto:' + email + '>' + email + '</a>';
     var strlength = estr.length;
     var intcodes = [];
@@ -13,4 +15,4 @@ function encode_email(email) {
 
     code = start_code + "'" + intcodes.toString() + "'" + end_code;
     return code;
-}
+};
