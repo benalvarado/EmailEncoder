@@ -6,7 +6,7 @@ A Javascript Library for encoding email addresses.
 
 ### Add the js
 
-<script src="emailencoder.min.js"></script>
+&lt;script src="emailencoder.min.js"&gt;&lt;/script&gt;
 
 ### Use EmailEncode.encode to encode email
 
