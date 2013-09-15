@@ -10,7 +10,7 @@ A Javascript Library for encoding email addresses.
 
 ### Use EmailEncode.encode to encode email
 
-var encoded_email = EmailEncoder.encode("test@example.com);
+var encoded_email = EmailEncoder.encode("test@example.com");
 
 
 Use test.html to see a full working example.
